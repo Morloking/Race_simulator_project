@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Base">
+      <UniqueIdentifier>{cd583fb4-8c74-43d9-a079-a8ca7fb778df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base">
+      <UniqueIdentifier>{548e6bd6-031e-492b-a21d-b5db51e26bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Transport Final Types">
+      <UniqueIdentifier>{a2f3eba5-5c0d-4fe1-bf0c-15439dbb765e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Transport Base Types">
+      <UniqueIdentifier>{de5f754a-4a45-412e-b3ee-8a4cbd6ab53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Race Base Types">
+      <UniqueIdentifier>{a84e76a8-448f-4d39-acb4-5fad6bc89fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base\Transport Base Types">
+      <UniqueIdentifier>{755a9e1a-7410-4790-83b9-34bf731f794c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base\Race Base Types">
+      <UniqueIdentifier>{cab535a7-9845-4369-a820-09bb4b3578e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Transport Final Types">
+      <UniqueIdentifier>{7e101517-d403-4485-8e14-d430544f59d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base\Parents">
+      <UniqueIdentifier>{2d0bffc9-6aac-4bd1-8d7e-26f6820da0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Base\Parents">
+      <UniqueIdentifier>{d194af53-6fd6-4a74-978c-ecd6b19cff39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{3c827fa9-fa21-4900-a807-40e01228afdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ground_race.h">
+      <Filter>Header Files\Base\Race Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="air_race.h">
+      <Filter>Header Files\Base\Race Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="mixed_race.h">
+      <Filter>Header Files\Base\Race Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="ground_transport.h">
+      <Filter>Header Files\Base\Transport Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="air_transport.h">
+      <Filter>Header Files\Base\Transport Base Types</Filter>
+    </ClInclude>
+    <ClInclude Include="camel.h">
+      <Filter>Header Files\Transport Final Types</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_camel.h">
+      <Filter>Header Files\Transport Final Types</Filter>
+    </ClInclude>
+    <ClInclude Include="centaur.h">
+      <Filter>Header Files\Transport Final Types</Filter>
+    </ClInclude>
+    <ClInclude Include="all_terrain_boots.h">
+      <Filter>Header Files\Transport Final Types</Filter>
+    </ClInclude>
+    <ClInclude Include="fly_carpet.h">
+      <Filter>Header Files\Transport Final Types</Filter>
+    </ClInclude>
+    <ClInclude Include="race.h">
+      <Filter>Header Files\Base\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="transport.h">
+      <Filter>Header Files\Base\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="eagle.h">
+      <Filter>Header Files\Transport Final Types</Filter>
+    </ClInclude>
+    <ClInclude Include="broom.h">
+      <Filter>Header Files\Transport Final Types</Filter>
+    </ClInclude>
+    <ClInclude Include="export.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ground_race.cpp">
+      <Filter>Source Files\Base\Race Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="air_race.cpp">
+      <Filter>Source Files\Base\Race Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="mixed_race.cpp">
+      <Filter>Source Files\Base\Race Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="ground_transport.cpp">
+      <Filter>Source Files\Base\Transport Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="air_transport.cpp">
+      <Filter>Source Files\Base\Transport Base Types</Filter>
+    </ClCompile>
+    <ClCompile Include="camel.cpp">
+      <Filter>Source Files\Transport Final Types</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_camel.cpp">
+      <Filter>Source Files\Transport Final Types</Filter>
+    </ClCompile>
+    <ClCompile Include="centaur.cpp">
+      <Filter>Source Files\Transport Final Types</Filter>
+    </ClCompile>
+    <ClCompile Include="all_terrain_boots.cpp">
+      <Filter>Source Files\Transport Final Types</Filter>
+    </ClCompile>
+    <ClCompile Include="fly_carpet.cpp">
+      <Filter>Source Files\Transport Final Types</Filter>
+    </ClCompile>
+    <ClCompile Include="race.cpp">
+      <Filter>Source Files\Base\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="transport.cpp">
+      <Filter>Source Files\Base\Parents</Filter>
+    </ClCompile>
+    <ClCompile Include="eagle.cpp">
+      <Filter>Source Files\Transport Final Types</Filter>
+    </ClCompile>
+    <ClCompile Include="broom.cpp">
+      <Filter>Source Files\Transport Final Types</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
