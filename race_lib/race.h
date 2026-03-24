@@ -11,8 +11,7 @@ namespace race_simulator {
 
     enum class TypeReg;
 
-    class Race
-    {
+    class Race {
     public:
         RACE_API Race(int type, double dist);
         RACE_API void clearData();
