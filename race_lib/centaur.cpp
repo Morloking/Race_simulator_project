@@ -6,7 +6,7 @@ namespace race_simulator {
 
     double Centaur::calcDurationOfRest(double distance) {
         double allTime = distance / getSpeed();
-        int count = static_cast<int>((allTime - 1e-9) / 8);
+        int count = static_cast<int>(allTime / 8 + 1e-9);
         if (count == 0) return 0.0;
         else return count * 2.0;
     }
